@@ -24,17 +24,27 @@ the teachers want to be able to enter the questions and student responses into a
 ### Requirements:
 The requirements below are not intended to suggest a particular user interface, just what data the user must provide as input and what data the system must provide as output.
 
-1 The teacher must be able to provide 
+1. The teacher must be able to provide 
 
     an input numerical value, an input unit of measure, a target unit of measure, and a student’s numeric response.
     
-2 The system indicates that the response is 
+2. The system indicates that the response is 
     
     correct, incorrect, or invalid. 
     
-3 To be considered correct, 
+3. To be considered correct, 
     
     the student’s response must match an authoritative answer after both the student’s response and authoritative answer are rounded to the tenths place.
 
 Optional Challenge: Implement a basic continuous integration/continuous deployment (CI/CD) pipeline for your code using your solution of choice
 (cloud solutions are acceptable). What you provide should support a peer code review process and seamless app deployment when a commit is merged to trunk.
+
+### Example scenarios (not exhaustive):
+|Input Numerical Value |Input Unit of Measure |Target Unit of Measure |Student Response |Output
+| :--------: | :--------: | :--------: | :--------: | :--------: | 
+| 84.2       | Fahrenheit | Rankine | 543.94 | correct |
+| 317.33 | Kelvin | Fahrenheit | 111.554 | incorrect |
+| 25.6 | cups  | liters | 6.1 | correct |
+| 73.12 | gallons | Kelvin | 19.4 | invalid |
+| 6.5 | Fahrenheit | Rankine | dog | incorrect |
+| 136.1 | dog | Celsius | 45.32 | invalid |
