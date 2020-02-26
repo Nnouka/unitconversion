@@ -48,3 +48,26 @@ Optional Challenge: Implement a basic continuous integration/continuous deployme
 | 73.12 | gallons | Kelvin | 19.4 | invalid |
 | 6.5 | Fahrenheit | Rankine | dog | incorrect |
 | 136.1 | dog | Celsius | 45.32 | invalid |
+
+### Temperature conversions
+
+Base unit: Kelvin
+
+| Scale | Conversion Factor | offset |
+| :----: | :----: | :----: |
+| Celsius | 1 | 273.15 |
+| Fahrenheit | 5/9 | 2298.35/9 |
+| Rankine | 5/9 | 0 |
+
+### Volume conversions
+
+Base unit: Litter
+
+| Unit | Conversion Factor | offset |
+| :----: | :----: | :----: |
+| Tablespoon | 0.014786 | 0 |
+| Cubic-inch | 0.0163871 | 0 |
+| cup | 0.236588 | 0 |
+| Cubic-foot | 28.3168 | 0 |
+| Gallon | 3.78541 | 0 |
+
