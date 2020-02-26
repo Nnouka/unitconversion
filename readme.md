@@ -61,13 +61,13 @@ Base unit: Kelvin
 
 ### Volume conversions
 
-Base unit: Litter
+Base unit: Liter
 
-| Unit | Conversion Factor | offset |
-| :----: | :----: | :----: |
-| Tablespoon | 0.014786 | 0 |
-| Cubic-inch | 0.0163871 | 0 |
-| cup | 0.236588 | 0 |
-| Cubic-foot | 28.3168 | 0 |
-| Gallon | 3.78541 | 0 |
+| Unit | Conversion Factor | 
+| :----: | :----: |
+| Tablespoon | 0.014786 |
+| Cubic-inch | 0.0163871 |
+| cup | 0.236588 |
+| Cubic-foot | 28.3168 |
+| Gallon | 3.78541 |
 
