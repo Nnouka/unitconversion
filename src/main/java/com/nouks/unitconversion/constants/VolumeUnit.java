@@ -5,7 +5,8 @@ public enum  VolumeUnit {
     CUBIC_INCH ("cubic-inch", "cubic-inches", 0.0163871, 0.0),
     CUP ("cup", "cups", 0.236588, 0.0),
     CUBIC_FOOT ("cubic-foot", "cubic-feet", 28.3168, 0.0),
-    GALLON ("gallon", "gallons", 3.78541, 0.0);
+    GALLON ("gallon", "gallons", 3.78541, 0.0),
+    LITTER ("litter", "litters", 1.0, 0.0);
     private String unit;
     private String plural;
     private Double conversionFactor;

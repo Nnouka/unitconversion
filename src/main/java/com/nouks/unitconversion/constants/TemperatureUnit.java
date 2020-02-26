@@ -2,7 +2,7 @@ package com.nouks.unitconversion.constants;
 
 public enum TemperatureUnit {
     CELSIUS ("celsius", "celsius", 1.0, 273.15),
-    FAHRENHEIT ("fahrenheit", "fahrenheit", 5.0/9, 2298.35/9),
+    FAHRENHEIT ("fahrenheit", "fahrenheits", 5.0/9, 2298.35/9),
     RANKINE ("rankine", "rankine", 5.0/9, 0.0),
     KELVIN ("kelvin", "kelvins", 1.0, 0.0);
     private String unit;
