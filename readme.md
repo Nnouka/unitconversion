@@ -71,3 +71,17 @@ Base unit: Liter
 | Cubic-foot | 28.3168 |
 | Gallon | 3.78541 |
 
+### Conversion Endpoint
+
+Uri: `\api\verify\response`
+Method: `POST`
+Sample Request Body:
+```json
+{
+	"inputValue": 84.2,
+	"inputUnit": "a",
+	"targetUnit": "Rankine",
+	"response": 95.0
+}
+```
+
