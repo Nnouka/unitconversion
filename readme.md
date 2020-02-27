@@ -74,8 +74,11 @@ Base unit: Liter
 ### Conversion Endpoint
 
 Uri: `\api\verify\response`
+
 Method: `POST`
+
 Sample Request Body:
+
 ```json
 {
 	"inputValue": 84.2,
