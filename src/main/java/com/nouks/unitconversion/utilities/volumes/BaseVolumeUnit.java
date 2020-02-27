@@ -2,13 +2,16 @@ package com.nouks.unitconversion.utilities.volumes;
 
 import com.nouks.unitconversion.constants.VolumeUnit;
 
-public class BaseUnit {
+public class BaseVolumeUnit {
     private Double value;
     private VolumeUnit volumeUnit;
 
-    public BaseUnit(Double value, VolumeUnit volumeUnit) {
+    public BaseVolumeUnit(Double value, VolumeUnit volumeUnit) {
+        System.out.println("-----<Wiring>----");
+        System.out.println(volumeUnit.getUnit());
         this.value = value;
         this.volumeUnit = volumeUnit;
+        System.out.println("--------<OK>----------");
     }
 
     public Double getValue() {

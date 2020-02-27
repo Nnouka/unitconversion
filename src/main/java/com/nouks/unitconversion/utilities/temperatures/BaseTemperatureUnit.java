@@ -2,13 +2,16 @@ package com.nouks.unitconversion.utilities.temperatures;
 
 import com.nouks.unitconversion.constants.TemperatureUnit;
 
-public class BaseScale {
+public class BaseTemperatureUnit {
     private Double value;
     private TemperatureUnit temperatureUnit;
 
-    public BaseScale(Double value, TemperatureUnit temperatureUnit) {
+    public BaseTemperatureUnit(Double value, TemperatureUnit temperatureUnit) {
+        System.out.println("-----<Wiring>----");
+        System.out.println(temperatureUnit.getUnit());
         this.value = value;
         this.temperatureUnit = temperatureUnit;
+        System.out.println("--------<OK>----------");
     }
 
     public Double getValue() {
