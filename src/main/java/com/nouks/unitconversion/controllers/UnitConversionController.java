@@ -4,6 +4,7 @@ import com.nouks.unitconversion.dtos.UnitConversionDTO;
 import com.nouks.unitconversion.services.Convertible;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,13 @@ public class UnitConversionController {
     @Autowired
     public UnitConversionController(Convertible convertible) {
         this.convertible = convertible;
+    }
+
+    @GetMapping("/")
+    public ResponseEntity<String> welcome() {
+        return ResponseEntity.ok(
+                "Welcome to UnitConversion Api: Lookup project on GitHub https://github.com/Nnouka/unitconversion"
+        );
     }
 
     @PostMapping("/api/verify/response")
